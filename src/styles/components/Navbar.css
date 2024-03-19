@@ -1,0 +1,56 @@
+.nav-main-frame{
+    background-color:#FFFFFF ;
+    width: 99.8%;
+    height: 150px;
+    display: flex;
+    border: 1px solid #F4F4F6;
+    justify-content: space-between;
+
+}
+
+.logo-image{
+    width: 140px;
+    height: 140px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.nav-link {
+    list-style: none;
+    padding: 55px;
+
+}
+
+.nav-link-detail {
+    display: inline-block;
+    margin-right: 30px; /* Adjust as needed */
+    margin-left: 20px;
+}
+
+.nav-link-detail a {
+    position: relative; /* Required for absolute positioning */
+    text-decoration: none;
+    color: #333; /* Adjust color as needed */
+    font-size: 20px;
+}
+
+.nav-link-detail a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px; /* Adjust to position the underline */
+    width: 100%;
+    border-bottom: 1px solid transparent; /* Adjust thickness and color */
+    transition: border-bottom-color 0.3s ease; /* Optional: add transition effect */
+}
+
+.nav-link-detail a:hover::after {
+    border-bottom-color: #9C9CA4;;
+}
+
+
+
+
+
+
+

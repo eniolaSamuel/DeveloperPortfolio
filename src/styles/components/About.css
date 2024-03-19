@@ -1,0 +1,83 @@
+.about-us-main-frame{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.card-frame{
+    display: flex;
+}
+
+.Introduction-text{
+    width: 650px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.Overview-text{
+    width: 700px;
+    height: 35px;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 60px;
+    color: #1F1F1F;
+    letter-spacing: 0em;
+    text-align: left;
+    /*font-family: "Mochiy Pop P One", sans-serif;*/
+}
+
+.summary-text{
+    width: 650px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.frontend-card, .backend-card{
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.55);
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.frontend-card img{
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 70px;
+
+}
+
+.backend-card img{
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 75px;
+}
+
+.frontend-frame h1, .backend-frame h1{
+    width: 170px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    /*font-family: "Mochiy Pop P One", sans-serif;*/
+}
+
+.frontend-frame, .backend-frame{
+    width: 150px;
+    height: 280px;
+    margin-left: 40px;
+}
