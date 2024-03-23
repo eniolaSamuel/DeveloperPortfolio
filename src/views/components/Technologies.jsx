@@ -1,6 +1,7 @@
 import JavascriptIcon from '../../assets/svg/icons8-javascript.svg';
 import React from "react";
 import Html from '../../assets/svg/icons8-html.svg';
+import CSS from '../../assets/svg/icons8-css.svg'
 
 
 function Technologies() {
@@ -10,7 +11,7 @@ function Technologies() {
             <p>Technologies</p>
             <div>
                 <div><img src={Html} alt={Html}/> </div>
-                <div><img src={Html} alt={Html}/> </div>
+                <div><img src={CSS} alt={CSS}/> </div>
                 <div><img src={JavascriptIcon} alt={JavascriptIcon}/> </div>
 
             </div>
