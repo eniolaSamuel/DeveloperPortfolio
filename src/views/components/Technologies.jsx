@@ -16,7 +16,7 @@ function Technologies() {
                 <div><img src={CSS} alt={CSS}/> </div>
                 <div><img src={JavascriptIcon} alt={JavascriptIcon}/> </div>
                 <div><img src={MySQL} alt={MySQL}/> </div>
-                <div><img src={JavascriptIcon} alt={JavascriptIcon}/> </div>
+                <div><img src={Figma} alt={Figma}/> </div>
 
             </div>
 
