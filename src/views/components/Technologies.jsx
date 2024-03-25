@@ -12,8 +12,8 @@ function Technologies() {
             <h1>MY SKILLS</h1>
             <p>Technologies</p>
             <div>
-                <div><img src={Html} alt={Html}/> </div>
-                <div><img src={CSS} alt={CSS}/> </div>
+                <div className="skill-frame"><img src={Html} alt={Html}/> </div>
+                <div className="skill-frame"><img src={CSS} alt={CSS}/> </div>
                 <div><img src={JavascriptIcon} alt={JavascriptIcon}/> </div>
                 <div><img src={MySQL} alt={MySQL}/> </div>
                 <div><img src={Figma} alt={Figma}/> </div>
