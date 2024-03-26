@@ -1,16 +1,15 @@
 .tech-main-frame{
     width: 100%;
-    display: flex;
+    
 }
 
 .tech-text-box-frame{
     width: 30%;
+    margin-left: 90px;
 }
 
 .tech-skill-frame{
-    display: flex;
     width: 65%;
-    justify-content: space-between;
     margin-left: 90px;
 }
 
@@ -45,3 +44,7 @@
     rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+.backend-skill-frame, .frontend-skill-frame{
+    display: flex;
+    justify-content: space-between;
+}
