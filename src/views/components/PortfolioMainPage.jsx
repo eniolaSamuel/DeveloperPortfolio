@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import HomeScreen from "./HomeScreen";
 import About from "./About";
+import Technologies from "./Technologies";
 
 const PortfolioMainPage = () => {
     return(
@@ -8,6 +9,7 @@ const PortfolioMainPage = () => {
             <Navbar />
             <HomeScreen />
             <About />
+            <Technologies />
         </>
     )
  }

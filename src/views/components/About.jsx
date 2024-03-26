@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../../styles';
 import frontend from '../../assets/svg/frontend.svg';
-import backend from '../../assets/svg/backend.svg';
+import backend from '../../assets/svg/icons8-backend-developer.svg';
 import { fadeIn, textVariant } from '../utils/motion';
 import  SectionWrapper  from '../../hoc/SectionWrapper';
 import "../../styles/components/About.css";
