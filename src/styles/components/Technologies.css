@@ -1,6 +1,11 @@
 .tech-main-frame{
     width: 100%;
-    
+
+}
+
+.tech-main-frame hr{
+    height: 5px;
+
 }
 
 .tech-text-box-frame{

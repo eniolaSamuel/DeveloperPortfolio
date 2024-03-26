@@ -18,6 +18,7 @@ import frontend from "../../assets/svg/frontend.svg";
 function Technologies() {
     return (
         <div className="tech-main-frame">
+            <hr/>
             <div className="tech-text-box-frame">
                 <motion.div variants={textVariant()}>
                     <p className="Skills-text">MY SKILLS</p>
