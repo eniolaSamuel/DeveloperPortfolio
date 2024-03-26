@@ -39,16 +39,22 @@
 }
 
 .skill-frame{
-    width: 150px;
-    height: 200px;
+    width: 130px;
+    height: 150px;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.55);
     margin-top: 50px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
     rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .backend-skill-frame, .frontend-skill-frame{
     display: flex;
     justify-content: space-between;
+}
+
+.skill-frame img{
+    margin-top: 45px;
+    margin-left: 25px;
+    width: 75px;
 }
