@@ -12,7 +12,7 @@ import JAVA from '../../assets/svg/icons8-java.svg'
 import SPRINGBOOT from '../../assets/svg/icons8-spring-boot (1).svg'
 import Postman from '../../assets/svg/postman.svg'
 import Python from '../../assets/svg/icons8-python.svg'
-import frontend from "../../assets/svg/frontend.svg";
+
 
 
 function Technologies() {

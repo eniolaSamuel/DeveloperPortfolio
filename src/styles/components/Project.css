@@ -1,0 +1,7 @@
+.project-main-frame{
+    width: 100%;
+    background-image:
+            linear-gradient(to bottom, rgba(246, 246, 246, 0.45), rgba(255, 255, 255, 0.42)),
+            url('../../assets/svg/project-background.svg');
+    margin-bottom: 80px;
+}
