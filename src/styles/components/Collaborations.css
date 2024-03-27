@@ -1,0 +1,70 @@
+.collaborations-main-frame{
+    width: 100%;
+    background-image:
+            linear-gradient(to top, rgba(255, 255, 255, 0.45), #FBFBFB);
+    padding-bottom: 50px;
+}
+
+.collaborations-main-frame hr{
+    height: 3px;
+}
+
+.collab-texts{
+    margin-left: 90px;
+    height: 150px;
+    margin-top: 40px;
+}
+
+.collabo-text{
+    width: 650px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.collabo-work-text{
+    width: 700px;
+    height: 35px;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #1F1F1F;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.collab-cards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+
+.e-reach img{
+    width: 150px;
+    height: 150px;
+    margin-top: 60px;
+}
+
+.coopera img{
+    width: 150px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.cocoalate img{
+    width: 150px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: -0px;
+}
+
+.skb img{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: -0px;
+}

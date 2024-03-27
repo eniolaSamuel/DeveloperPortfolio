@@ -3,6 +3,7 @@ import HomeScreen from "./HomeScreen";
 import About from "./About";
 import Technologies from "./Technologies";
 import Project from "./Project";
+import Collaborations from "./Collaborations";
 
 const PortfolioMainPage = () => {
     return(
@@ -12,6 +13,7 @@ const PortfolioMainPage = () => {
             <About />
             <Technologies />
             <Project />
+            <Collaborations/>
         </>
     )
  }

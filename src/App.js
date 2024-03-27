@@ -5,6 +5,7 @@ import About from "./views/components/About";
 import PortfolioMainPage from "./views/components/PortfolioMainPage";
 import Technologies from "./views/components/Technologies";
 import Project from "./views/components/Project";
+import Collaborations from "./views/components/Collaborations";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/techSkills" element={<Technologies />} />
             <Route path="/projects" element={<Project />} />
+            <Route path="/collaborations" element={<Collaborations/>} />
           </Routes>
         </BrowserRouter>
       </>

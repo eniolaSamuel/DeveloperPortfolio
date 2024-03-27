@@ -3,7 +3,11 @@
     background-image:
             linear-gradient(to bottom, rgba(255, 255, 255, 0.45), rgb(237, 237, 237)),
             url('../../assets/svg/project-background.svg');
-    margin: auto;
+    padding-bottom: 50px;
+}
+
+.project-main-frame hr{
+    height: 3px;
 }
 
 .project-texts{
@@ -52,9 +56,7 @@
 .link-button{
     width: 20px;
     height: 20px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
-    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    margin-left: 190px;
+   margin-left: 190px;
     margin-top: 20px;
 }
 
