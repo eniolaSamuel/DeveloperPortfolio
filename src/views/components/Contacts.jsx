@@ -2,6 +2,8 @@ import "../../styles/components/Contact.css"
 
 const Contacts = () =>{
     return(
-        <div></div>
+        <div className=""></div>
     )
 }
+
+export default Contacts;
