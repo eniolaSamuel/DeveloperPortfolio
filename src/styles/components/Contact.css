@@ -26,5 +26,13 @@
 }
 
 .socials-frame{
+    width: 50%;
+    margin: auto;
+    justify-content: space-evenly;
+}
 
+.social-circle{
+    width: 50px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
 }
