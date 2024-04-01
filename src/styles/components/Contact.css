@@ -6,8 +6,25 @@
 .inner-frame{
     width: 80%;
     margin: auto;
+    justify-content: center;
 }
 
 .inner-frame img{
+    width: 150px;
+    justify-content: center;
+}
+
+.inner-frame h1{
+    width: 700px;
+    height: 35px;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #1F1F1F;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.socials-frame{
 
 }
