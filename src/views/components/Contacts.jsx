@@ -15,9 +15,19 @@ const Contacts = () =>{
                 </h1>
 
                 <div className="socials-frame">
-                    <div className="social-circle"><img src={LINKEDIN} alt={LINKEDIN}/></div>
-                    <div className="social-circle"><img src={TWITTER} alt={TWITTER}/></div>
-                    <div className="social-circle"><img src={GITHUB} alt={GITHUB}/></div>
+                    <a href="https://www.linkedin.com/in/eniola-samuel-6074a6244/">
+                        <div className="social-circle"><img src={LINKEDIN} alt={LINKEDIN}/></div>
+                    </a>
+
+                    <a href="https://www.twitter.com/__cocoalate">
+                        <div className="social-circle"><img src={TWITTER} alt={TWITTER}/></div>
+                    </a>
+
+                    <a href="https://github.com/eniolaSamuel">
+                        <div className="social-circle"><img src={GITHUB} alt={GITHUB}/></div>
+                    </a>
+
+
                     <div className="social-circle"><img src={MAIL} alt={MAIL}/></div>
 
                 </div>
