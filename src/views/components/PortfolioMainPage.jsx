@@ -4,6 +4,7 @@ import About from "./About";
 import Technologies from "./Technologies";
 import Project from "./Project";
 import Collaborations from "./Collaborations";
+import Contacts from "./Contacts";
 
 const PortfolioMainPage = () => {
     return(
@@ -14,6 +15,7 @@ const PortfolioMainPage = () => {
             <Technologies />
             <Project />
             <Collaborations/>
+            <Contacts/>
         </>
     )
  }

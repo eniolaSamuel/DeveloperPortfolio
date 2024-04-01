@@ -1,7 +1,7 @@
 .collaborations-main-frame{
     width: 100%;
     background-image:
-            linear-gradient(to top, rgba(255, 255, 255, 0.45), #FBFBFB);
+            linear-gradient(to bottom, rgba(255, 255, 255, 0.45), whitesmoke);
     padding-bottom: 50px;
 }
 

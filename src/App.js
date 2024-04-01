@@ -6,6 +6,7 @@ import PortfolioMainPage from "./views/components/PortfolioMainPage";
 import Technologies from "./views/components/Technologies";
 import Project from "./views/components/Project";
 import Collaborations from "./views/components/Collaborations";
+import Contacts from "./views/components/Contacts";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/techSkills" element={<Technologies />} />
             <Route path="/projects" element={<Project />} />
             <Route path="/collaborations" element={<Collaborations/>} />
+            <Route path="/contact" element={<Contacts/>} />
           </Routes>
         </BrowserRouter>
       </>

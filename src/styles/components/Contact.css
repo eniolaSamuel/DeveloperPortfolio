@@ -1,6 +1,7 @@
 .contact-main-frame{
     width: 100%;
-    background-color: #1a1a1a;
+    background-color: #FFFFFF;
+    height: 450px;
 }
 
 .inner-frame{
@@ -9,9 +10,10 @@
     justify-content: center;
 }
 
-.inner-frame img{
+.inner-frame-logo{
     width: 150px;
     justify-content: center;
+    margin-left: 400px;
 }
 
 .inner-frame h1{
@@ -22,17 +24,27 @@
     line-height: 40px;
     color: #1F1F1F;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 150px;
 }
 
 .socials-frame{
     width: 50%;
     margin: auto;
     justify-content: space-evenly;
+    display: flex;
 }
 
 .social-circle{
-    width: 50px;
+    width: 60px;
+    height: 60px;
     border: 1px solid whitesmoke;
+    border-radius: 50%;
+}
+
+.social-circle img{
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
 }

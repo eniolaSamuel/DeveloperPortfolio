@@ -8,8 +8,8 @@ const Navbar = () => {
 
     let links = [
         { name: "ABOUT", link: "/about" },
-        { name: "PROJECT", link: "//projects" },
-        { name: "CONTACTS", link: "/" },
+        { name: "PROJECT", link: "/projects" },
+        { name: "CONTACTS", link: "/contacts" },
     ];
 
     return(

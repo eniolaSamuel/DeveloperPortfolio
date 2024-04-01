@@ -9,9 +9,9 @@ const Contacts = () =>{
     return(
         <div className="contact-main-frame">
             <div className="inner-frame">
-                <img src={LOGO} alt={LOGO}/>
-                <h1>"Logging out with pixels of passion, code in my heart,
-                    and dreams in my design. See you in the next click!"
+                <img className="inner-frame-logo" src={LOGO} alt={LOGO}/>
+                <h1>Logging out with pixels of passion, code in my heart,
+                    and dreams in my design. See you in the next click!
                 </h1>
 
                 <div className="socials-frame">
