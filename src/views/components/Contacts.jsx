@@ -33,6 +33,7 @@ const Contacts = () =>{
                     </a>
 
                 </div>
+                <div className="craft-message"><h2>Handcrafted by me © twentyTwentyFour</h2></div>
 
             </div>
         </div>
