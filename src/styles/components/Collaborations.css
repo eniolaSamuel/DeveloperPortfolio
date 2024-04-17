@@ -68,3 +68,68 @@
     margin-top: 20px;
     margin-left: -0px;
 }
+
+
+
+@media screen and (max-width: 767px) {
+    .collaborations-main-frame {
+        width: 100%;
+        background-image: none; /* Remove background image on small screens */
+        padding-bottom: 20px; /* Reduce padding for smaller screens */
+        padding-left: 0px; /* Adjust padding for smaller screens */
+        padding-right: 0px; /* Adjust padding for smaller screens */
+    }
+
+    .collab-texts {
+        margin-left: 0; /* Reset margin for better alignment */
+        margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .collabo-text, .collabo-work-text {
+        width: auto; /* Remove fixed width for better responsiveness */
+        max-width: 90%; /* Limit width for better readability */
+        margin-left: auto; /* Center text horizontally */
+        margin-right: auto; /* Center text horizontally */
+        margin-bottom: 20px; /* Adjust margin for better spacing */
+        text-align: center; /* Center text on small screens */
+    }
+
+    .collab-cards {
+        display: flex; /* Display cards in a row */
+        flex-wrap: wrap; /* Allow cards to wrap to the next line */
+        justify-content: center; /* Center cards horizontally */
+        margin-top:40px ;
+    }
+
+    .e-reach img{
+        width: 120px; /* Adjust image width for smaller screens */
+        height: 120px; /* Adjust image height for smaller screens */
+        margin-top: 70px; /* Adjust margin for spacing between images */
+        margin-left: auto; /* Center images horizontally */
+        margin-right: 20px; /* Center images horizontally */
+    }
+
+    .coopera img{
+        width: 120px; /* Adjust image width for smaller screens */
+        height: 120px; /* Adjust image height for smaller screens */
+        margin-top: 40px; /* Adjust margin for spacing between images */
+        margin-left: auto; /* Center images horizontally */
+        margin-right: auto; /* Center images horizontally */
+    }
+
+    .cocoalate img {
+      width: 120px; /* Adjust image width for smaller screens */
+      height: 120px; /* Adjust image height for smaller screens */
+      margin-top: 0px; /* Adjust margin for spacing between images */
+      margin-left: auto; /* Center images horizontally */
+      margin-right: 20px; /* Center images horizontally */
+    }
+
+    .skb img {
+      width: 120px; /* Adjust image width for smaller screens */
+      height: 120px; /* Adjust image height for smaller screens */
+      margin-top: 10px; /* Adjust margin for spacing between images */
+      margin-left: auto; /* Center images horizontally */
+      margin-right: auto; /* Center images horizontally */
+  }
+}
