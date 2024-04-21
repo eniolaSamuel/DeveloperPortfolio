@@ -62,3 +62,57 @@
     padding-bottom: 150px;
     padding-top: 50px;
 }
+
+@media screen and (max-width: 767px) {
+    .collaborations-main-frame {
+        width: 100%;
+        background-image: none;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .collab-texts {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .collabo-text, .collabo-work-text {
+        width: auto;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .collab-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .e-reach img, .coopera img, .cocoalate img, .skb img {
+        width: 120px;
+        height: 120px;
+        margin-top: 20px;
+        margin-right: 10px; /* Add margin between logos */
+        margin-left: 10px; /* Add margin between logos */
+    }
+
+    /* Adjust margin for the first logo of each row to align with the container */
+    .e-reach img:nth-child(2n+1),
+    .coopera img:nth-child(2n+1),
+    .cocoalate img:nth-child(2n+1),
+    .skb img:nth-child(2n+1) {
+        margin-left: 0;
+    }
+
+    /* Adjust margin for the last logo of each row to align with the container */
+    .e-reach img:nth-child(2n),
+    .coopera img:nth-child(2n),
+    .cocoalate img:nth-child(2n),
+    .skb img:nth-child(2n) {
+        margin-right: 0;
+    }
+}
