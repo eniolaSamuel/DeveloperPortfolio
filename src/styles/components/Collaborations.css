@@ -81,7 +81,9 @@
     }
 
     .collab-texts {
-        margin-right: 20px; /* Reset margin for better alignment */
+        width: 350px;
+        height: 200px;
+        margin-left: 35px; /* Reset margin for better alignment */
         margin-top: 20px; /* Adjust margin for smaller screens */
     }
 
@@ -107,16 +109,16 @@
     .e-reach img{
         width: 120px; /* Adjust image width for smaller screens */
         height: 120px; /* Adjust image height for smaller screens */
-        margin-top: 70px; /* Adjust margin for spacing between images */
-        margin-left: auto; /* Center images horizontally */
+        margin-top: 30px; /* Adjust margin for spacing between images */
+        margin-left: 10px; /* Center images horizontally */
         margin-right: 20px; /* Center images horizontally */
     }
 
     .coopera img{
         width: 120px; /* Adjust image width for smaller screens */
         height: 120px; /* Adjust image height for smaller screens */
-        margin-top: 40px; /* Adjust margin for spacing between images */
-        margin-left: auto; /* Center images horizontally */
+        margin-top: -10px; /* Adjust margin for spacing between images */
+        margin-left: 10px; /* Center images horizontally */
         margin-right: auto; /* Center images horizontally */
     }
 
@@ -132,7 +134,7 @@
       width: 120px; /* Adjust image width for smaller screens */
       height: 120px; /* Adjust image height for smaller screens */
       margin-top: 10px; /* Adjust margin for spacing between images */
-      margin-left: auto; /* Center images horizontally */
+      margin-left: 10px; /* Center images horizontally */
       margin-right: auto; /* Center images horizontally */
   }
 }
