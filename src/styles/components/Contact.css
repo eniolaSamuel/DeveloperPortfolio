@@ -64,55 +64,59 @@
 }
 
 @media screen and (max-width: 767px) {
-    .collaborations-main-frame {
+    .contact-main-frame {
         width: 100%;
-        background-image: none;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
+        background-color: #FFFFFF;
+        height: auto; /* Adjust height to fit content */
+        padding-bottom: 20px; /* Adjust padding for better spacing */
     }
 
-    .collab-texts {
-        margin-left: 0;
-        margin-top: 20px;
+    .inner-frame {
+        width: 90%; /* Adjust width for better responsiveness */
+        margin: auto;
+        text-align: center; /* Center content */
     }
 
-    .collabo-text, .collabo-work-text {
-        width: auto;
-        max-width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-        text-align: center;
+    .inner-frame-logo {
+        width: 100px; /* Adjust the width of the logo container */
+        margin: auto;
     }
 
-    .collab-cards {
+    .inner-frame h1 {
+        width: 100%; /* Adjust width for better responsiveness */
+        font-size: 28px; /* Decrease font size for better fit */
+        line-height: 32px; /* Adjust line height for better readability */
+        padding-bottom: 20px; /* Adjust padding for better spacing */
+        padding-top: 20px; /* Adjust padding for better spacing */
+        margin: auto;
+    }
+
+    .socials-frame {
+        margin-top: 100px;
+        width: 100%; /* Adjust width for better responsiveness */
+        justify-content: center; /* Center social icons */
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-wrap: wrap; /* Allow social icons to wrap on smaller screens */
     }
 
-    .e-reach img, .coopera img, .cocoalate img, .skb img {
-        width: 120px;
-        height: 120px;
-        margin-top: 20px;
-        margin-right: 10px; /* Add margin between logos */
-        margin-left: 10px; /* Add margin between logos */
+    .social-circle {
+        width: 60px;
+        height: 60px;
+        border: 1px solid whitesmoke;
+        border-radius: 50%;
+        margin: 10px; /* Add margin between social icons */
     }
 
-    /* Adjust margin for the first logo of each row to align with the container */
-    .e-reach img:nth-child(2n+1),
-    .coopera img:nth-child(2n+1),
-    .cocoalate img:nth-child(2n+1),
-    .skb img:nth-child(2n+1) {
-        margin-left: 0;
+    .social-circle img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
     }
 
-    /* Adjust margin for the last logo of each row to align with the container */
-    .e-reach img:nth-child(2n),
-    .coopera img:nth-child(2n),
-    .cocoalate img:nth-child(2n),
-    .skb img:nth-child(2n) {
-        margin-right: 0;
+    .craft-message {
+        width: 100%; /* Adjust width for better responsiveness */
+        font-size: 14px; /* Decrease font size for better fit */
+        padding-bottom: 20px; /* Adjust padding for better spacing */
+        padding-top: 20px; /* Adjust padding for better spacing */
     }
 }
