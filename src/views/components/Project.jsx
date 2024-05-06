@@ -23,9 +23,9 @@ const Project = ()=>{
                 <div className="cocoa-product">
                     <img  className="cocoa-logo" src={CocoaLogo} alt={CocoaLogo}/>
                     <h1 className="cocoa-logo-text"> A Simple Product Landing Page for an Hair Growth Oil Company</h1>
-                    <Link to={{pathname: "https://cocoalate-oil.vercel.app/"}}>
-                        <img className="link-button" src={LinkIcon} alt={LinkIcon}/>
-                    </Link>
+                        <a href="https://cocoalate-oil.vercel.app/">
+                            <img className="link-button" src={LinkIcon} alt={LinkIcon}/>
+                        </a>
                 </div>
                 <div className="skb-backend">
                     <img  className="skb-logo" src={SKBLogo} alt={SKBLogo}/>
